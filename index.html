@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHOLEFOOD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   
+    <!--Navbar Section-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#" id="navbar_logo">
+                <img src="images/Whole Food Logo Transparent.png" alt="Wholefood Logo" class="navbar_img">
+                
+            </a>
+            
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links">
+                        About
+                    </a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="#contact" class="button">
+                        Contact
+                    </a>
+                </li>
+                <div class="grid">
+                <li>
+                    <a href="https://open.spotify.com/artist/28tti0myrNGlIr6p64fYvi?si=1Py04xvrQv-H7KyvY3HIvw" class="navbar_icon" target="_blank">
+                        <i class='bx bxl-spotify'></i>
+                    </a>
+                
+                    <a href="https://www.youtube.com/channel/UC6hjEsdzxnGUCb_OW9gPTLA" class="navbar_icon" target="_blank">
+                        <i class='bx bxl-youtube' ></i>
+                    </a>
+                
+                    <a href="https://instagram.com/wholefoodofficial?utm_medium=copy_link" class="navbar_icon" target="_blank">
+                        <i class='bx bxl-instagram-alt' ></i>
+                    </a>
+                
+                    <a href="Wholefood - Full Album - MP3 - 320kbps" class="navbar_icon" target="_blank">
+                        <i class='bx bxs-download' ></i>
+                    </a>
+                </li>
+            </div>
+            </ul>
+        </div>
+    </nav>
+    <!--Hero Section-->
+<main>
+    <div class="main" id="home">
+        <div>
+            <img src="images/Splatter.jpg" alt="Splatter Background" class="splatter_background"/>
+        </div>
+        <div class="main_container">
+            <div class="main_content">
+                <h1>
+                   WELCOME TO
+                </h1>
+                <img src="images/Whole Food Logo Transparent.png" alt="Wholefood Logo" class="main_img">
+                <h2>
+                    MUSIC
+                </h2>
+                
+            </div>
+            <div class="spotify_widget">
+                <iframe src="https://open.spotify.com/embed/track/1msgjRz10RB5EpdWRoIMiu?theme=0" width="75%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>    
+    </div>
+
+     <!--About Section-->
+    <div class="about_section" id="about">
+        <h2 class="about_section-title">
+            About
+        </h2>
+
+        <div class="about_container">
+            <div>
+               <img src="images/Artist Pic.jpg" alt="Image of Musician Wholefood" class="about_img"> 
+            </div>
+
+            <div>
+                <p class="about_text">
+                    Wholefood brings you GMO-free organic free-range Electronic music with ingredients you can pronounce.   
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!--Contact Section-->
+    <div class="contact_section" id="contact">
+        <h2 class="contact_section-title">
+            Contact
+        </h2>
+
+        <div class="contact_container">
+            <form action="" class="contact_form" id="contactForm">
+                <input type="text" placeholder="Name" id="fromName" class="contact_input" />
+                <input type="mail" placeholder="Email" id="email" class="contact_input" />
+                <textarea type="text" name="message" id="message" cols="0" rows="10" class="contact_input"></textarea>
+                <input type="button" onclick="sendForm()" onsubmit="resetForm()" value="Submit" class="contact_button" />
+            </form>
+        </div>
+    </div>
+</main>
+
+    <!--Footer Section-->
+    <footer class="footer">
+       <p class="footer_title">
+            Follow Wholefood
+        </p>
+
+        <div class="footer_social">
+            
+            <a href="https://open.spotify.com/artist/28tti0myrNGlIr6p64fYvi?si=1Py04xvrQv-H7KyvY3HIvw" class="footer_icon" target="_blank">
+                <i class='bx bxl-spotify'></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UC6hjEsdzxnGUCb_OW9gPTLA" class="footer_icon" target="_blank">
+                <i class='bx bxl-youtube' ></i>
+            </a>
+            <a href="https://instagram.com/wholefoodofficial?utm_medium=copy_link" class="footer_icon" target="_blank">
+                <i class='bx bxl-instagram-alt' ></i>
+            </a>
+
+        </div>
+        <p class="footer_sub-title">
+            All Rights Reserved
+        </p>
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    <!--<div class="footer_container">
+        <div class="footer_text">
+            <div class="footer_link-wrapper">
+                    <h2>
+                        Follow Wholefood
+                        <a href="https://open.spotify.com/artist/28tti0myrNGlIr6p64fYvi?si=1Py04xvrQv-H7KyvY3HIvw" target="_blank">
+                            <i class='bx bxl-spotify'></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC6hjEsdzxnGUCb_OW9gPTLA" target="_blank">
+                            <i class='bx bxl-youtube' ></i>
+                        </a>
+                        <a href="/" target="_blank">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="Wholefood_Resources/Wholefood - Full Album - MP3 - 320kbps" target="_blank">
+                            <i class='bx bxs-download' ></i>
+                        </a>
+                    </h2>
+            </div>
+        </div>
+    </div>-->
+
+        
+    <script src="app.js"></script>
+    
+</body>
+</html>
