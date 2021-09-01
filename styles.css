@@ -106,14 +106,18 @@ body {
     color: #fff;
 }
 
-.button:hover {
-    background: #A895B5;
-    transition: all 0.3s ease;
-}
+
 
 .navbar_links:hover {
     color: #A895B5;
     transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #A895B5;
+    color: #fff;
+    transition: all 0.3s ease;
+
 }
 
 .grid {
@@ -241,7 +245,7 @@ body {
     display: block;
     margin: 0 auto;
     padding-top: 200px;
-    margin-top: 200px;
+    
     margin-bottom: 150px;
     max-width: 700px;
 }
@@ -338,17 +342,6 @@ body {
     margin-top: 10px;
     margin-bottom: 2px;
 }
-
-@media screen and (max-width: 480px) {
-    .footer {
-        position: sticky;
-        margin-top: 750px;
-    }
-
-
-}
-
-
 
 /*.footer_container {
     background-color: #493D66;
@@ -550,6 +543,11 @@ body {
     .spotify_widget {
         padding-left: 70px;
 
+    }
+
+    .footer {
+        position: sticky;
+        
     }
 
 
